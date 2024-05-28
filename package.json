@@ -4,7 +4,8 @@
   "description": "TypeScript package for cardano.",
   "main": "./mod.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish:jsr": "pnpm dlx jsr publish"
   },
   "repository": {
     "type": "git",
