@@ -1,0 +1,5 @@
+{
+  "name": "@449sabu/cardano-multiruntime-ts",
+  "version": "0.0.1",
+  "exports": "./mod.ts"
+}

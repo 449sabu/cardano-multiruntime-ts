@@ -1,0 +1,18 @@
+{
+  "name": "cardano-multiruntime-ts",
+  "version": "0.0.1",
+  "description": "TypeScript package for cardano.",
+  "main": "./mod.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@449sabu/cardano-multiruntime-ts"
+  },
+  "keywords": [
+    "workers"
+  ],
+  "author": "449sabu",
+  "license": "MIT"
+}
