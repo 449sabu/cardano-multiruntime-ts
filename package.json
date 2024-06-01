@@ -2,10 +2,15 @@
   "name": "cardano-multiruntime-ts",
   "version": "0.0.1",
   "description": "TypeScript package for cardano.",
+  "type": "module",
   "main": "./mod.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish:jsr": "pnpm dlx jsr publish"
+    "lint:fix": "eslint --ext js,ts,tsx src runtime_tests --fix",
+    "format": "prettier --check --cache \"src/**/*.{js,ts,tsx}\" \"runtime_tests/**/*.{js,ts,tsx}\"",
+    "format:fix": "prettier --write \"src/**/*.{js,ts}\"",
+    "publish:jsr": "pnpm dlx jsr publish",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,20 @@
     "workers"
   ],
   "author": "449sabu",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
