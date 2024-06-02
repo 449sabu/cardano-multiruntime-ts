@@ -19,5 +19,5 @@
     "src/**/*.test.ts",
     "src/**/*.test.tsx"
   ],
-  "exclude": ["eslint.config.mjs"]
+  "exclude": ["prettier.config.mjs"]
 }

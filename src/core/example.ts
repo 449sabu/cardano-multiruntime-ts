@@ -4,6 +4,5 @@
  */
 
 export function HelloCardano(): string {
-  a
-  return "Hello Cardano !";
+    return 'Hello Cardano !';
 }
