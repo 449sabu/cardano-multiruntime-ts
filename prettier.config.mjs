@@ -5,7 +5,7 @@
  * @type {import("prettier").Config}
  */
 const config = {
-  tabWidth: 4,
+  tabWidth: 2,
   semi: true,
   singleQuote: true,
 };
